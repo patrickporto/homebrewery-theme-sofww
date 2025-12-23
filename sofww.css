@@ -6,3 +6,24 @@
 .page::after {
   display: none;
 }
+
+
+.page strong {
+  color: #402049;
+}
+
+.page h1 {
+  font-family: 'Queen Inline Grunge', sans-serif;
+  font-size: 48px;
+  font-weight: normal;
+  color: #402049;
+}
+
+
+.page h1+p::first-letter {
+  float: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  line-height: inherit;
+}

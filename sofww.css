@@ -41,3 +41,37 @@
   font-weight: normal;
   color: #402049;
 }
+
+
+.page h3 {
+  font-family: 'Queen Grunge', sans-serif;
+  font-size: 28px;
+  font-weight: normal;
+  color: #402049;
+  border-bottom: 4px double #000;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.page h4 {
+  font-family: 'Queen Grunge', sans-serif;
+  font-size: 28px;
+  font-weight: normal;
+  color: #402049;
+  border-bottom: 1px solid #000;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.page h5 {
+  font-family: 'Queen Grunge', sans-serif;
+  font-size: 22px;
+  font-weight: normal;
+  color: #402049;
+  background-color: #d3c9d4;
+  padding-left: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 4px
+}
+

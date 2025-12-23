@@ -75,3 +75,25 @@
   border-radius: 4px
 }
 
+
+.page table thead th {
+  background-color: #402049;
+  color: #fff;
+  padding-left: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.page table tbody tr td {
+  padding-left: 15px;
+  /* padding-top: 5px;
+  padding-bottom: 5px; */
+}
+
+.page table tbody tr:nth-child(odd) {
+  background-color: transparent;
+}
+
+.page table tbody tr:nth-child(even) {
+  background-color: #d3c9d4;
+}

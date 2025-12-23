@@ -1,3 +1,10 @@
+@import url('https://fonts.cdnfonts.com/css/queen-inline-grunge');
+
+@font-face {
+  font-family: "Queen Grunge";
+  src: url("https://patrickporto.github.io/homebrewery-theme-sofww/fonts/queen-grunge.otf");
+}
+
 .page {
   background-image: url("https://patrickporto.github.io/homebrewery-theme-sofww/imgs/background.png");
   background-size: contain;
@@ -26,4 +33,11 @@
   font-size: inherit;
   color: inherit;
   line-height: inherit;
+}
+
+.page h2 {
+  font-family: 'Queen Grunge', sans-serif;
+  font-size: 36px;
+  font-weight: normal;
+  color: #402049;
 }

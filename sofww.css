@@ -79,13 +79,13 @@
 .page table thead th {
   background-color: #402049;
   color: #fff;
-  padding-left: 15px;
+  /* padding-left: 15px;
   padding-top: 5px;
-  padding-bottom: 5px;
+  padding-bottom: 5px; */
 }
 
 .page table tbody tr td {
-  padding-left: 15px;
+  /* padding-left: 15px; */
   /* padding-top: 5px;
   padding-bottom: 5px; */
 }

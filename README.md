@@ -6,5 +6,5 @@
 At the top of your brew simply paste the following line:
 
 ```html
-<link rel="stylesheet" type="text/css" href = "https://groumy.github.io/homebrewery-sotdl/sofww.css" />
+<link rel="stylesheet" type="text/css" href = "https://patrickporto.github.io/homebrewery-theme-sofww/sofww.css" />
 ```

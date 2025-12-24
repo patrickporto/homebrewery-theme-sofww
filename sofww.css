@@ -79,15 +79,6 @@
 .page table thead th {
   background-color: #402049;
   color: #fff;
-  /* padding-left: 15px;
-  padding-top: 5px;
-  padding-bottom: 5px; */
-}
-
-.page table tbody tr td {
-  /* padding-left: 15px; */
-  /* padding-top: 5px;
-  padding-bottom: 5px; */
 }
 
 .page table tbody tr:nth-child(odd) {
@@ -96,4 +87,37 @@
 
 .page table tbody tr:nth-child(even) {
   background-color: #d3c9d4;
+}
+
+
+.page .border {
+  background-image: url("https://patrickporto.github.io/homebrewery-theme-sofww/imgs/background-border.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
+.page .border .border-title {
+  font-family: 'Queen Grunge', sans-serif;
+  position: absolute;
+  bottom: 130px;
+  left: -58px;
+  transform: rotate(-90deg);
+  white-space: nowrap;
+  width: 182px;
+  text-align: center;
+}
+
+.page .block::before {
+  background-image: url("https://patrickporto.github.io/homebrewery-theme-sofww/imgs/separator-1.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.page .block {
+
 }

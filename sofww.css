@@ -22,6 +22,11 @@
 }
 
 @font-face {
+  font-family: "Garamond Premier Pro";
+  src: url("https://patrickporto.github.io/homebrewery-theme-sofww/fonts/garamond-premier-pro.otf");
+}
+
+@font-face {
   font-family: "Garamond Premier Pro Bold";
   src: url("https://patrickporto.github.io/homebrewery-theme-sofww/fonts/garamond-premier-pro-bold.otf");
 }
@@ -178,7 +183,7 @@
 }
 
 .page .quote h2 {
-  font-family: "Garamond Premier Pro Bold";
+  font-family: "Garamond Premier Pro";
   text-align: center;
   font-size: 22px;
   margin-bottom: 5px;

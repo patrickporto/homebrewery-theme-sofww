@@ -273,3 +273,46 @@
   top: 0px;
   z-index: -1;
 }
+
+.page .monster {
+  border-bottom: 2px solid #402049;
+}
+
+.page .monster h2 {
+  font-family: "Garamond Premier Pro SemiBold", "Garamond Premier Pro";
+  background-color: #402049;
+  color: #fff;
+  padding: 5px;
+  border: none;
+}
+
+.page .monster h3 {
+  font-family: "Garamond Premier Pro";
+  font-size: 12px;
+  color: #000;
+  background-color: #d3c9d4;
+  padding-left: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 0;
+  border: none;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+
+
+.page .monster h4 {
+  font-family: "Garamond Premier Pro";
+  font-size: 12px;
+  color: #000;
+  background-color: #bdbfc1;
+  padding-left: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 0;
+  border: none;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}

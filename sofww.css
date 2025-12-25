@@ -178,14 +178,14 @@
 }
 
 .page .quote h2 {
-  font-family: familyBookInsanityRemake;
+  font-family: "Garamond Premier Pro Bold";
   text-align: center;
-  font-size: 26px;
+  font-size: 22px;
   margin-bottom: 5px;
 }
 
 .page .table-header {
-  font-family: familyBookInsanityRemake;
+  font-family: "Garamond Premier Pro Bold";
   font-size: 16px;
   font-weight: bold;
   color: #402049;

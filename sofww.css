@@ -5,9 +5,28 @@
   src: url("https://patrickporto.github.io/homebrewery-theme-sofww/fonts/queen-grunge.otf");
 }
 
+
+@font-face {
+  font-family: "Futura PT Demi";
+  src: url("https://patrickporto.github.io/homebrewery-theme-sofww/fonts/futura-pt-demi.otf");
+}
+
+@font-face {
+  font-family: "Futura PT Book";
+  src: url("https://patrickporto.github.io/homebrewery-theme-sofww/fonts/futura-pt-book.otf");
+}
+
+@font-face {
+  font-family: "Garamond Premier Pro Bold";
+  src: url("https://patrickporto.github.io/homebrewery-theme-sofww/fonts/garamond-premier-pro-bold");
+}
+
+
 .page {
   background-image: url("https://patrickporto.github.io/homebrewery-theme-sofww/imgs/background.png");
   background-size: contain;
+
+  font-family: "Futura PT Book";
 }
 
 .page::after {

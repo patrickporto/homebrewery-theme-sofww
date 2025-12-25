@@ -126,6 +126,7 @@
   background-color: #402049;
   color: #fff;
   font-family: "Futura PT Demi";
+  text-transform: uppercase;
 }
 
 .page table tbody tr:nth-child(odd) {

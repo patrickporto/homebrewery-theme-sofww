@@ -37,6 +37,11 @@
   src: url("https://patrickporto.github.io/homebrewery-theme-sofww/fonts/garamond-premier-pro-bold.otf");
 }
 
+@font-face {
+  font-family: "Garamond Premier Pro SemiBold";
+  src: url("https://patrickporto.github.io/homebrewery-theme-sofww/fonts/garamond-premier-pro-semibold.otf");
+}
+
 
 .page {
   background-image: url("https://patrickporto.github.io/homebrewery-theme-sofww/imgs/background.png");

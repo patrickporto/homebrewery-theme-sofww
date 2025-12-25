@@ -49,12 +49,11 @@
 }
 
 .page h1 {
-  font-family: 'Queen Inline Grunge', sans-serif;
-  font-size: 48px;
+  font-family: 'Queen Grunge', sans-serif;
+  font-size: 36px;
   font-weight: normal;
   color: #402049;
 }
-
 
 .page h1+p::first-letter {
   float: inherit;
@@ -64,15 +63,8 @@
   line-height: inherit;
 }
 
+
 .page h2 {
-  font-family: 'Queen Grunge', sans-serif;
-  font-size: 36px;
-  font-weight: normal;
-  color: #402049;
-}
-
-
-.page h3 {
   font-family: 'Queen Grunge', sans-serif;
   font-size: 28px;
   font-weight: normal;
@@ -82,7 +74,7 @@
   margin-bottom: 10px;
 }
 
-.page h4 {
+.page h3 {
   font-family: 'Queen Grunge', sans-serif;
   font-size: 28px;
   font-weight: normal;
@@ -92,7 +84,7 @@
   margin-bottom: 10px;
 }
 
-.page h5 {
+.page h4 {
   font-family: 'Queen Grunge', sans-serif;
   font-size: 22px;
   font-weight: normal;
@@ -104,7 +96,7 @@
   border-radius: 4px
 }
 
-.page h6 {
+.page h5 {
   font-family: familyBookInsanityRemake;
   font-size: 16px;
   font-weight: normal;
@@ -121,6 +113,7 @@
 .page table thead th {
   background-color: #402049;
   color: #fff;
+  font-family: "Futura PT Demi";
 }
 
 .page table tbody tr:nth-child(odd) {
@@ -152,6 +145,34 @@
   white-space: nowrap;
   width: 182px;
   text-align: center;
+}
+
+.page .cover {
+  background-image: url("https://patrickporto.github.io/homebrewery-theme-sofww/imgs/cover.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
+.page .cover h1 {
+  font-family: 'Queen Grunge', sans-serif;
+  color: #fff;
+  text-shadow: 2px 2px #000000;
+  position: absolute;
+  bottom: 60px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.page .cover img {
+  position: absolute;
+  top: 320px;
+  left: 0;
 }
 
 .page .quote p, .page .quote span {

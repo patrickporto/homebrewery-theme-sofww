@@ -52,6 +52,7 @@
 
 .page strong {
   color: #402049;
+  font-family: "Futura PT Demi";
 }
 
 .page h1 {
@@ -228,4 +229,9 @@
   text-align: center;
   width: 100%;
   column-span: all;
+}
+
+
+.page li::marker {
+  color: #402049;
 }

@@ -13,7 +13,12 @@
 
 @font-face {
   font-family: "Futura PT Book";
-  src: url("https://patrickporto.github.io/homebrewery-theme-sofww/fonts/futura-pt-book.otf");
+  src: url("https://patrickporto.github.io/homebrewery-theme-sofww/fonts/futura-pt-book.ttf");
+}
+
+@font-face {
+  font-family: "Futura PT Bold";
+  src: url("https://patrickporto.github.io/homebrewery-theme-sofww/fonts/futura-pt-bold.ttf");
 }
 
 @font-face {

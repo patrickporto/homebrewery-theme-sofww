@@ -22,6 +22,12 @@
 }
 
 @font-face {
+  font-family: "Futura PT Light";
+  src: url("https://patrickporto.github.io/homebrewery-theme-sofww/fonts/futura-pt-light.otf");
+}
+
+
+@font-face {
   font-family: "Garamond Premier Pro";
   src: url("https://patrickporto.github.io/homebrewery-theme-sofww/fonts/garamond-premier-pro.otf");
 }
@@ -122,6 +128,10 @@
 
 .page table tbody tr:nth-child(even) {
   background-color: #d3c9d4;
+}
+
+.page table tbody td {
+  font-family: "Futura PT Light";
 }
 
 

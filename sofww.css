@@ -243,3 +243,32 @@
 .page li::marker {
   color: #402049;
 }
+
+.page .path-level {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  break-inside: avoid;
+}
+
+.page .path-level h1 {
+  font-family: "Garamond Premier Pro SemiBold", "Garamond Premier Pro";
+  font-size: 14px;
+  text-align: center;
+  padding: 5px 0px;
+}
+
+.page .path-level h1:before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 25px;
+  background-image: url("https://patrickporto.github.io/homebrewery-theme-sofww/imgs/path-level-background.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  position: absolute;
+  left: 0;
+  top: 0px;
+  z-index: -1;
+}

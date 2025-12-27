@@ -235,6 +235,98 @@
   font-style: normal;
 }
 
+
+.page .descriptive {
+  background: none;
+  border: none;
+  box-shadow: none;
+}
+
+
+.page .descriptive p, .page .descriptive span {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.page .descriptive::before,
+.page .descriptive::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.page .descriptive::before {
+  background-image: url("https://patrickporto.github.io/homebrewery-theme-sofww/imgs/separator.png");
+  margin-bottom: 0px;
+  height: 45px;
+}
+
+.page .descriptive::after {
+  background-image: url("https://patrickporto.github.io/homebrewery-theme-sofww/imgs/separator-6.png");
+  margin-top: 10px;
+  height: 35px;
+}
+
+.page .descriptive h2, .page .descriptive h5 {
+  font-family: "Garamond Premier Pro";
+  text-align: center;
+  font-size: 22px;
+  margin-bottom: 5px;
+}
+
+.page .descriptive p {
+  font-style: normal;
+}
+
+.page .note {
+  background: none;
+  border: none;
+  box-shadow: none;
+}
+
+.page .note p, .page .note span {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.page .note::before,
+.page .note::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.page .note::before {
+  background-image: url("https://patrickporto.github.io/homebrewery-theme-sofww/imgs/separator.png");
+  margin-bottom: 0px;
+  height: 45px;
+}
+
+.page .note::after {
+  background-image: url("https://patrickporto.github.io/homebrewery-theme-sofww/imgs/separator-6.png");
+  margin-top: 10px;
+  height: 35px;
+}
+
+.page .note h2, .page .note h5 {
+  font-family: "Garamond Premier Pro";
+  text-align: center;
+  font-size: 22px;
+  margin-bottom: 5px;
+}
+
+.page .note p {
+  font-style: normal;
+}
+
 .page .table-header {
   font-family: "Garamond Premier Pro Bold";
   font-size: 16px;
@@ -321,4 +413,40 @@
   margin-top: 5px;
   margin-bottom: 5px;
   text-transform: uppercase;
+}
+
+
+.page .ancestry h2 {
+  background: #bfb2c1;
+  font-family: "Garamond Premier Pro";
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 16px;
+  color: #000;
+  border: none;
+  margin-bottom: 1px;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+.page .ancestry h3 {
+  background: #dbd3dc;
+  color: #402049;
+  font-family: "Garamond Premier Pro";
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 14px;
+  border: none;
+  margin-bottom: 1px;
+  font-weight: normal;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.page .ancestry .description {
+  background: #ede9ed;
+  padding: 5px;
+  margin: 0;
 }

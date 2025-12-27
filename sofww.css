@@ -42,6 +42,17 @@
   src: url("https://patrickporto.github.io/homebrewery-theme-sofww/fonts/garamond-premier-pro-semibold.otf");
 }
 
+:root {
+  --color-brand: #402049;
+  --color-black: #000000;
+  --color-white: #ffffff;
+  --color-bg-light: #d3c9d4;
+  --color-bg-muted: #bdbfc1;
+  --color-bg-lighter: #dbd3dc;
+  --color-bg-pale: #bfb2c1;
+  --color-bg-very-pale: #ede9ed;
+}
+
 
 .page {
   background-image: url("https://patrickporto.github.io/homebrewery-theme-sofww/imgs/background.png");
@@ -56,7 +67,7 @@
 
 
 .page strong {
-  color: #402049;
+  color: var(--color-brand);
   font-family: "Futura PT Demi";
 }
 
@@ -64,7 +75,7 @@
   font-family: 'Queen Grunge', sans-serif;
   font-size: 36px;
   font-weight: normal;
-  color: #402049;
+  color: var(--color-brand);
 }
 
 .page h1+p::first-letter {
@@ -80,8 +91,8 @@
   font-family: 'Queen Grunge', sans-serif;
   font-size: 28px;
   font-weight: normal;
-  color: #402049;
-  border-bottom: 4px double #000;
+  color: var(--color-brand);
+  border-bottom: 4px double var(--color-black);
   padding-bottom: 5px;
   margin-bottom: 10px;
 }
@@ -90,8 +101,8 @@
   font-family: 'Queen Grunge', sans-serif;
   font-size: 28px;
   font-weight: normal;
-  color: #402049;
-  border-bottom: 1px solid #000;
+  color: var(--color-brand);
+  border-bottom: 1px solid var(--color-black);
   padding-bottom: 5px;
   margin-bottom: 10px;
 }
@@ -100,8 +111,8 @@
   font-family: 'Queen Grunge', sans-serif;
   font-size: 22px;
   font-weight: normal;
-  color: #402049;
-  background-color: #d3c9d4;
+  color: var(--color-brand);
+  background-color: var(--color-bg-light);
   padding-left: 15px;
   padding-top: 5px;
   padding-bottom: 5px;
@@ -112,19 +123,19 @@
   font-family: "Garamond Premier Pro";
   font-size: 14px;
   font-weight: normal;
-  color: #000;
+  color: var(--color-black);
   text-align: center;
   padding-left: 15px;
   padding-top: 5px;
   padding-bottom: 5px;
-  border-bottom: 4px double #402049;
+  border-bottom: 4px double var(--color-brand);
   margin-bottom: 5px;
 }
 
 
 .page table thead th {
-  background-color: #402049;
-  color: #fff;
+  background-color: var(--color-brand);
+  color: var(--color-white);
   font-family: "Futura PT Demi";
   text-transform: uppercase;
 }
@@ -134,7 +145,7 @@
 }
 
 .page table tbody tr:nth-child(even) {
-  background-color: #d3c9d4;
+  background-color: var(--color-bg-light);
 }
 
 .page table tbody td {
@@ -142,7 +153,7 @@
 }
 
 .page table tbody tr:last-child {
-  border-bottom: 1px solid #402049;
+  border-bottom: 1px solid var(--color-brand);
 }
 
 
@@ -181,8 +192,8 @@
 
 .page .cover h1 {
   font-family: 'Queen Grunge', sans-serif;
-  color: #fff;
-  text-shadow: 2px 2px #000000;
+  color: var(--color-white);
+  text-shadow: 2px 2px var(--color-black);
   position: absolute;
   bottom: 60px;
   left: 0;
@@ -330,7 +341,7 @@
 .page .table-header {
   font-family: "Garamond Premier Pro Bold";
   font-size: 16px;
-  color: #402049;
+  color: var(--color-brand);
   text-align: center;
   width: 100%;
   column-span: all;
@@ -338,7 +349,7 @@
 
 
 .page li::marker {
-  color: #402049;
+  color: var(--color-brand);
 }
 
 .page .path-level {
@@ -371,13 +382,13 @@
 }
 
 .page .monster {
-  border-bottom: 2px solid #402049;
+  border-bottom: 2px solid var(--color-brand);
 }
 
 .page .monster h2 {
   font-family: "Garamond Premier Pro SemiBold", "Garamond Premier Pro";
-  background-color: #402049;
-  color: #fff;
+  background-color: var(--color-brand);
+  color: var(--color-white);
   padding: 5px;
   border: none;
   font-size: 16px;
@@ -387,8 +398,8 @@
 .page .monster h3 {
   font-family: "Garamond Premier Pro";
   font-size: 12px;
-  color: #000;
-  background-color: #d3c9d4;
+  color: var(--color-black);
+  background-color: var(--color-bg-light);
   padding-left: 5px;
   padding-top: 5px;
   padding-bottom: 5px;
@@ -403,8 +414,8 @@
 .page .monster h4 {
   font-family: "Garamond Premier Pro";
   font-size: 12px;
-  color: #000;
-  background-color: #bdbfc1;
+  color: var(--color-black);
+  background-color: var(--color-bg-muted);
   padding-left: 5px;
   padding-top: 5px;
   padding-bottom: 5px;
@@ -417,13 +428,13 @@
 
 
 .page .ancestry h2 {
-  background: #bfb2c1;
+  background: var(--color-bg-pale);
   font-family: "Garamond Premier Pro";
   text-align: center;
   padding-top: 5px;
   padding-bottom: 5px;
   font-size: 16px;
-  color: #000;
+  color: var(--color-black);
   border: none;
   margin-bottom: 1px;
   font-weight: normal;
@@ -431,8 +442,8 @@
 }
 
 .page .ancestry h3 {
-  background: #dbd3dc;
-  color: #402049;
+  background: var(--color-bg-lighter);
+  color: var(--color-brand);
   font-family: "Garamond Premier Pro";
   text-align: center;
   padding-top: 5px;
@@ -446,7 +457,7 @@
 }
 
 .page .ancestry .description {
-  background: #ede9ed;
+  background: var(--color-bg-very-pale);
   padding: 5px;
   margin: 0;
 }
